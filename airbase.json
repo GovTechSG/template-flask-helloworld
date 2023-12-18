@@ -1,0 +1,12 @@
+{
+  "name": "template-flask-helloworld",
+  "framework": "python",
+  "scripts": {
+    "build": "echo \"no build required\"",
+    "start": "source venv/bin/activate && python app.py"
+  },
+  "include": [
+    "venv/**/*",
+    "app.py"
+  ]
+}
